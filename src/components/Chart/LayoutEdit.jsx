@@ -4,6 +4,10 @@ import icon_Moda_da_casa from '../../image/Monitoramento/icon_moda_da_casa.png';
 import icon_de_bem_com_a_vida from '../../image/Monitoramento/icon_de_bem_com_a_vida.png';
 import icon_grill from '../../image/Monitoramento/icon_grill.png';
 import icon_receita_do_chefe from '../../image/Monitoramento/image/icon_receita_do_chefe.png';
+import edit_grill from '../../image/Monitoramento/edit_grill.png';
+import edit_de_bem_com_vida from '../../image/Monitoramento/edit_de_bem_com_vida.png';
+import edit_moda from '../../image/Monitoramento/edit_moda.png';
+import edit_receita_chefe from '../../image/Monitoramento/edit_receita_chefe.png';
 
 import { UserData } from '../../Data.js';
 
@@ -59,13 +63,13 @@ function LayoutGraphicEdit() {
       />
       <div className='Oeste_Superior'>
       <img
-        src={icon_Moda_da_casa}
-        alt="icon_Moda_da_casa"
+        src={edit_moda}
+        alt="edit_moda"
         style={{
           ...rectStyle, 
           top: '30.7%',  
           left: '11.5%', 
-          width: '2.5%', 
+          width: '3%', 
           height: 'auto', 
         }}
       />
@@ -74,13 +78,13 @@ function LayoutGraphicEdit() {
       
       <div className='Oeste_Inferior'>
       <img
-        src={icon_Moda_da_casa}
-        alt="icon_Moda_da_casa"
+        src={edit_moda}
+        alt="edit_moda"
         style={{
           ...rectStyle, 
-          top: '56%',  
+          top: '55%',  
           left: '11.5%', 
-          width: '2.5%', 
+          width: '3%', 
           height: 'auto', 
         }}
       />
@@ -88,13 +92,13 @@ function LayoutGraphicEdit() {
       
        <div className='Norte'>
       <img
-        src={icon_Moda_da_casa}
-        alt="icon_Moda_da_casa"
+        src={edit_moda}
+        alt="edit_moda"
         style={{
           ...rectStyle, 
           top: '71%',  
-          left: '18.2%', 
-          width: '2.5%', 
+          left: '18.1%', 
+          width: '3%', 
           height: 'auto', 
         }}
       />
@@ -102,13 +106,13 @@ function LayoutGraphicEdit() {
       
       <div className='Norte_'>
       <img
-        src={icon_de_bem_com_a_vida}
-        alt="icon_de_bem_com_a_vida"
+        src={edit_de_bem_com_vida}
+        alt="edit_de_bem_com_vida"
         style={{
           ...rectStyle, 
-          top: '71%',  
-          left: '29.4%', 
-          width: '2.5%', 
+          top: '72%',  
+          left: '28.9%', 
+          width: '3.5%', 
           height: 'auto', 
         }}
       />
@@ -116,13 +120,13 @@ function LayoutGraphicEdit() {
      
       <div className='Leste_Superior'>
       <img
-        src={icon_grill}
-        alt="icon_icon_grill"
+        src={edit_grill}
+        alt="edit_grill"
         style={{
           ...rectStyle, 
           top: '31%',  
           left: '46.7%', 
-          width: '2.5%', 
+          width: '2.8%', 
           height: 'auto', 
         }}
       />
@@ -130,13 +134,13 @@ function LayoutGraphicEdit() {
     
       <div className='Leste_Inferior'>
       <img
-        src={icon_receita_do_chefe}
-        alt="icon_receita_do_chefe"
+        src={edit_receita_chefe}
+        alt="edit_receita_chefe"
         style={{
           ...rectStyle, 
           top: '56%',  
-          left: '36.3%', 
-          width: '2.5%', 
+          left: '35.6%', 
+          width: '3.3%', 
           height: 'auto', 
         }}
       />
@@ -144,13 +148,13 @@ function LayoutGraphicEdit() {
       
       <div className='Norte_Superior'>
       <img
-        src={icon_grill}
-        alt="icon_grill"
+        src={edit_grill}
+        alt="edit_grill "
         style={{
           ...rectStyle, 
           top: '6.5%',  
           left: '30%', 
-          width: '2.5%', 
+          width: '3%', 
           height: 'auto', 
         }}
       />
